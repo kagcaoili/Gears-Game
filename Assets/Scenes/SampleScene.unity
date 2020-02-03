@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -819,9 +819,9 @@ MonoBehaviour:
   goalObject: {fileID: 0}
   scoreText: {fileID: 212059760}
   backgroundPanel: {fileID: 1853317269}
-  normalColor: {r: 1, g: 1, b: 1, a: 1}
-  winColor: {r: 0, g: 1, b: 0, a: 1}
-  loseColor: {r: 1, g: 0, b: 0, a: 1}
+  normalColor: {r: 0.14509805, g: 0.14509805, b: 0.14509805, a: 1}
+  winColor: {r: 0, g: 0.46226418, b: 0, a: 1}
+  loseColor: {r: 0.5283019, g: 0, b: 0, a: 1}
   xRadius: 5.5
   yRadius: 2.5
   gearNum: 20
@@ -921,7 +921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.14509805, g: 0.14509805, b: 0.14509805, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
