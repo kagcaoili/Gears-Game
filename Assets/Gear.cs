@@ -126,7 +126,10 @@ public class Gear : MonoBehaviour
 		
 		foreach(var piece in pieces)
 		{
-			piece.GetComponent<MeshRenderer>().material = mat;
+			if(piece.GetComponent<GearComponent>())
+				piece.GetComponent<GearComponent>().renderer.material = mat;
+			else
+				piece.GetComponent<MeshRenderer>().material = mat;
 		}
 	}
 

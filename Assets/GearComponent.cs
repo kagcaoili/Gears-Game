@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class GearComponent : MonoBehaviour
 {
 	public List<GameObject> goals;
+	public MeshRenderer renderer;
 	
     // Start is called before the first frame update
     void Start()
