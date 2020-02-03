@@ -58,6 +58,15 @@ public class Player : MonoBehaviour
 		if(Input.GetKeyDown(KeyCode.R))
 		{
 			Reset(false);
+		} else if (Input.GetKeyDown(KeyCode.T))
+		{
+			StartCoroutine(ChangeColor(loseColor));
+
+			int score = int.Parse(scoreText.text);
+			score--;
+			scoreText.text = score.ToString();
+
+			Reset(true);
 		}
     }
 	
